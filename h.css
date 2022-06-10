@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(176, 218, 204);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header-section{
+background-color: rgb(198, 224, 219); 
+border-color:rgb(25, 173, 173);
+padding-top:10px;
+padding-bottom:15px;
+border-radius: 4px;
+}
+.sp1{
+    font-size: 20px;
+    border-radius: 15px;
+    padding:5px 20px 10px 25px;
+   
+    border-width:1px ;
+    border-color: rgb(28, 185, 224);
+}
+.sp1:hover{
+    background-color: aqua;
+    cursor:pointer;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  button{
+    background-color: rgb(198, 224, 219); 
+    border-color:rgb(198, 224, 219);
+    padding-top:10px;
+      cursor:pointer;
+      font-size: 20px;
+      padding:5px 20px 10px 25px;
+      
+      border-width:1px ;
+           border-radius: 15px;
+
+  }
+  button:hover{
+    background-color: aqua;
+    cursor:pointer;
+  }
+  a:visited{
+      color:red;
+  }
+  button::after{
+      color:red;
+  }
+  a:link{
+      color:black;
+  }
+  a:active{
+      color:blue;
+  }
+  a{
+      text-decoration:none;
+  }
+  .video-side{
+      background-color:rgb(23, 185, 145);
+      font-style: italic;
+      color:rgb(209, 149, 149);
+  }
+
+  .td-text{
+      background-color: rgb(142, 219, 233);
+      column-span: 2;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-shadow: #00A4BD;
+  }
+img{
+    border:3px ;
+    border-color: rgb(27, 58, 197);
+    height:250;
+     width:200;
+}
+.contact-us-body{
+    background-color:rgb(117, 163, 108);
+    padding:20px;
+}
+form{
+    background-color: rgb(171, 222, 226);
+    text-align: center;
+    width:600px;
+    padding:1px 32px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+#form-heading{
+   font-size:31px;;
+
+   padding-top:4px;
+   padding-left:5px;
+}
+.input-contact{
+    font-size:14px;
+    padding-bottom: 15px;
+    margin-bottom:14px;
+    border:0;
+    border-bottom: 2px solid;
+    width:60%;
+}
+.div-contact{
+    padding:20px 80px 40px 80px;
+}
+.btn-contact{
+    background-color: #6790cf;
+    padding:12px 24px 12px 24px;
+    font-size:18px;
+    color:wheat;
+    border:0;
+}
+.input-contact-area{
+    font-size:14px;
+    padding-bottom: 18px;
+    margin-bottom:4px;
+    border:0;
+    border-bottom: 2px solid;
+    width:100%;
+}
+.abt-main{
+    background-color: aqua;
+    text-align: center;
+    padding:10px;
+}
+section{
+    background-color: rgb(65, 169, 177);
+}
+.article{
+    background-color: #2dc76d;
+    margin-top: 10px;
+    padding:14px;
+}
+footer{
+    background-color: rgb(138, 199, 240);
+    font-style: oblique;
+    font-weight: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.index-detail{
+background-color: rgb(31, 39, 141);
+padding:12px 15px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:aqua;
+}
+summary{background-color: #6693ce;}
+.index-table,.index-td{
+    border:2px;
+    border-style: solid;
+    border-color: #45dbe0;
+    border-collapse: collapse;
+    
+}
+.index-img{
+    height:250px;
+    width: 300px;
+    padding:15px;
+}
